@@ -15,7 +15,6 @@ class Ball:
     def draw(self):
         sx, sy = self.x - self.bg.window_left, self.y - self.bg.window_bottom
         self.image.draw(sx, sy)
-        draw_rectangle(*self.get_bb())
 
     def update(self):
         pass

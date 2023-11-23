@@ -297,7 +297,6 @@ class Boy:
         self.image.clip_draw(int(self.frame) * 100, self.action * 100, 100, 100
                              , sx, sy)
         self.font.draw(sx - 10, sy + 60, f'{self.ball_count}', (0, 0, 255))
-        draw_rectangle(*self.get_bb())
         pass
 
     def get_bb(self):
